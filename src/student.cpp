@@ -36,7 +36,15 @@ using namespace std;
 
 // SOAL 1: Jumlahkan semua elemen data[0] .. data[n-1]. Bila n == 0, hasil 0.
 int hitungTotal(const int data[], int n) {
-    return -1;  // nilai sementara — ganti dengan hasil perhitungan Anda
+    int temp = 0;
+    if (n == 0) {
+        return 0;
+    }
+    for (int i = 0; i < n; i++) {
+        
+    }
+    
+    return n;  // nilai sementara — ganti dengan hasil perhitungan Anda
 }
 
 // SOAL 2: Rata-rata seluruh elemen (hasil pecahan). Bila n == 0, hasil 0.0.
